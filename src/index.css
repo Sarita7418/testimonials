@@ -21,7 +21,11 @@ body {
   box-sizing: border-box;
 }
 
-.purple-card{
+.purple{
   background-color: var(--Moderate-violet);
   color: var(--White);
+}
+
+.white{
+  background-color: gray;
 }

@@ -1,13 +1,12 @@
 import "./UserProfile.css";
-import profile from "../assets/image-daniel.jpg"
 
-export const UserProfile = () => {
+export const UserProfile = ({name,avatar,userState}) => {
   return (
     <div className="user-profile">
-      <img  src={profile} alt="" />
+      <img  src={avatar} alt="" />
       <div className="user-details">
-        <span>Daniel Clifford</span>
-        <span>Verified Graduate</span>
+        <span>{name}</span>
+        <span>{userState}</span>
       </div>
     </div>
   );
