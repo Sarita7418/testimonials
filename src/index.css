@@ -19,6 +19,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--Light-grayish-blue);
 }
 
 .purple{
@@ -27,5 +28,31 @@ body {
 }
 
 .white{
-  background-color: gray;
+  background-color: var(--White);
+  color: var(--Very-dark-blackish-blue);
+}
+
+.gray{
+  background-color: var(--Very-dark-grayish-blue);
+  color: var(--White);
+}
+
+.blue{
+  background-color: var(--Very-dark-blackish-blue);
+  color: var(--White);
+}
+
+#root{
+  padding: 52px 24px;
+}
+
+.button{
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.button:disabled{
+  background-color: var(--Light-gray);
+  color: var(--Very-dark-grayish-blue);
 }
